@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lev3_2 change Background</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main id="background">
+        <form action="" onsubmit="return false">
+            <div>
+                <label for="red">red</label>
+                <input type="range" name="rgb red" id="red" min="0" max="255" value="1" oninput="changeBackground()">
+            </div>
+            <div>
+                <label for="green">green</label>
+                <input type="range" name="rgb green" id="green" min="0" max="255" value="1" oninput="changeBackground()">
+            </div>
+            <div>
+                <label for="blue">blue</label>
+                <input type="range" name="rgb blue" id="blue" min="0" max="255" value="1" oninput="changeBackground()">
+            </div>
+        </form>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
